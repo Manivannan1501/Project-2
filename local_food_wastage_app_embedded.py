@@ -77,7 +77,7 @@ def create_database():
     conn.commit()
     conn.close()
 
-def # create_dummy_csv_files()  # Removed CSV writing:
+load_embedded_data_to_db()
     providers = pd.DataFrame({
         'Provider_ID': [1],
         'Name': ['Provider A'],
