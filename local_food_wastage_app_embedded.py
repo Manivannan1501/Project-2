@@ -212,8 +212,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-
 def load_embedded_data_to_db():
     import sqlite3
     import pandas as pd
