@@ -3,7 +3,7 @@ import sqlite3
 from datetime import datetime
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
+import matplotlib as plt
 import seaborn as sns
 
 DB_NAME = 'food_waste.db'
